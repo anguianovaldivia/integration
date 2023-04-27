@@ -1,6 +1,3 @@
-trigger:
-- main
-
 pool:
   vmImage: ubuntu-latest
 
@@ -13,5 +10,5 @@ steps:
 - script: |
     npm install
     npm jest
-  displayName: 'Execute Community Plan regression test suite'
+  displayName: 'Execute Automatation test suite'
   continueOnError: true
