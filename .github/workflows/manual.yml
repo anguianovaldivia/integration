@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@anguianovaldivia 
-anguianovaldivia
-/
-integration
-Public
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Manual workflow
-.github/workflows/manual.yml #1
-Jobs
-Run details
-Workflow file for this run
-.github/workflows/manual.yml at 8ef45c0
 # This is a basic workflow that is manually triggered
 
 name: Manual workflow
@@ -60,4 +31,4 @@ jobs:
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
 
-      
+
