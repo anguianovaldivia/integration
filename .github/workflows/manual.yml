@@ -24,10 +24,6 @@ jobs:
     - name: Ejecucion Inicial
       run: echo "Hello ${{ inputs.name }}"
 
-      # 2: Checkout repository in the CWD
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
       # 3: install NPM dependencies
       - name: Install dependencies
         run: npm install
