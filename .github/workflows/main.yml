@@ -1,5 +1,5 @@
 # workflow name
-name: Unit Tests
+name: Main
 
 # execute on events
 on:
