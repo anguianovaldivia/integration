@@ -32,4 +32,4 @@ jobs:
       
       # 4: run test command
       - name: Run test command
-        run: npm jest
+        run: npm run test 
