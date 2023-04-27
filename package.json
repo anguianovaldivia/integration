@@ -1,5 +1,25 @@
 {
   "devDependencies": {
     "jest": "^29.5.0"
-  }
+  },
+  "name": "integration",
+  "description": "",
+  "version": "1.0.0",
+  "main": "math.js",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anguianovaldivia/integration.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anguianovaldivia/integration/issues"
+  },
+  "homepage": "https://github.com/anguianovaldivia/integration#readme"
 }
