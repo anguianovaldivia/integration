@@ -31,7 +31,7 @@ jobs:
     - name: Send greeting
       run: echo "Hello ${{ inputs.name }}"
 
-    - name: Install dependencies
-        run: npm install
+    - name: Checkout repository
+      uses: actions/checkout@v2
 
 
