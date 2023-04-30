@@ -9,10 +9,12 @@ jobs:
 
     steps:
     - name: Initialization
-       run: echo "Initialization"
-
-    - name: Check out
-      uses: actions/checkout@v2
+    - run: echo "Initialization"
     
-    - name: install dependencies
-       run: npm install
+    - name: checkout 
+    - uses: actions/checkout@v3
+    
+    - name: Install dependencies
+    - run: npm install
+    
+    
