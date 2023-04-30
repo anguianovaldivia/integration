@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v3
     - run: npm install
     - run: npm test
-    if always()
+    if: always()
     run: |
       zip -r result.zip automation.json
     continue-on-error: true
