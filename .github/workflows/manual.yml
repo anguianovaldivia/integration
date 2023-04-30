@@ -1,12 +1,10 @@
 # This is a basic workflow that is manually triggered
-
-name: Manual workflow
+name: CI
 
 on:
   push:
     branches:
       - master
-
 
 jobs:
   automation:
@@ -17,9 +15,10 @@ jobs:
       run: echo "Inicializacion de la Ejecucion"
 
     - name: Checkout
-      uses: actions/checkout@v1
+      uses: actions/checkout@v2
     
     - name: Install dependencies
       run: npm install
     
     - name: Run test command
+      run: bundle exec cucumber
