@@ -11,5 +11,6 @@ jobs:
     - run: echo "Initialization"
     - uses: actions/checkout@v3
     - run: npm install
+    - run: npm test
     
     
