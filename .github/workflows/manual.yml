@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Send greeting
-      run: echo "Hello"
+    - name: Initialization
+      run: echo "Initialization"
+
+    - name: Check out
+      run: echo "Check out"
