@@ -3,7 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js -f json:automation.json"
   },
   "repository": {
     "type": "git",
