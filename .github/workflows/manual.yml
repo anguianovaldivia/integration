@@ -13,6 +13,11 @@ jobs:
     - run: npm install
     - run: npm test
     - run: zip -r result.zip automation.json
+    - run: |
+        curl -x POST https://api.zephyrscale.smartbear.com/v2/automations/executions/cucumber?projectKey=PLT&autoCreateTestCases=false \
+        -H 'Autorization: Bearer ${{ secrets.ZSCALETOKEN }}' \
+        -F 'file= @result.zip' \
+        -F 'testCycle="{\"name\": \"Test cycle 1\", \"description\": \"descripcion 2\"}";type=application/json'
 
     
     
