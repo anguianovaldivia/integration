@@ -17,12 +17,9 @@ jobs:
       run: echo "Inicializacion de la Ejecucion"
 
     - name: Checkout
-      uses: actions/checkout@master
+      uses: actions/checkout@v1
     
     - name: Install dependencies
       run: npm install
     
     - name: Run test command
-        run: npm run test 
-
-
