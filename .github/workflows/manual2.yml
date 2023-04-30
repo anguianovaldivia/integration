@@ -12,12 +12,3 @@ jobs:
     steps:
     - name: Initializacion
       run: echo "Inicializacion de la Ejecucion"
-      
-    - name: Checkout
-      run: echo "Checkout"
-      
-    - name: Install dependencies
-      run: echo "Install"
-    
-    - name: Run testing command
-      run: echo "Install"
