@@ -1,16 +1,9 @@
 {
-  "devDependencies": {
-    "jest": "^29.5.0"
-  },
   "name": "integration",
   "description": "",
   "version": "1.0.0",
-  "main": "math.js",
-  "dependencies": {
-    "jest": "^29.5.0"
-  },
   "scripts": {
-    "test": "jest"
+    "test": "cucumber-js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/anguianovaldivia/integration/issues"
   },
-  "homepage": "https://github.com/anguianovaldivia/integration#readme"
+  "homepage": "https://github.com/anguianovaldivia/integration#readme",
+  "dependencies": {
+    "cucumber": "^6.0.7"
+  }
 }
