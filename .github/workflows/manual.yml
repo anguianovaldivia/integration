@@ -16,7 +16,7 @@ jobs:
     - run: |
         curl -X POST https://api.zephyrscale.smartbear.com/v2/automations/executions/cucumber\?projectKey\=PLT\&autoCreateTestCases\=false \
         -H 'Authorization: Bearer ${{ secrets.ZSCALETOKEN }}' \
-        -F 'file= @result.zip' \
+        -F 'file=@result.zip' \
         -F 'testCycle="{\"Name\": \"Test cycle 1\", \"Description\": \"descripcion 2\"}";type=application/json'
 
     
